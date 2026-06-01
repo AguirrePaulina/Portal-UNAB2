@@ -1,8 +1,8 @@
 /* ═══════════════════════════════════════════════════════
    UNAB — app.js
-   15 carreras con plan por cuatrimestre (fuente: PDFs oficiales)
-   Materias con correlativas y aprobadas (sin descripción ni horas)
-   PDFs: static/materiales/<CARPETA>/<archivo.pdf>
+   15 carreras con plan por cuatrimestre 
+   Materias con correlativas y aprobadas 
+   PDFs: static/materiales
 ═══════════════════════════════════════════════════════ */
 'use strict';
 
@@ -12,7 +12,7 @@ const API = 'http://localhost:5000';
    DEFINICIÓN DE CARRERAS
    Cada carrera tiene: id, nombre, tipo, pdfUrl, anios[]
    Cada año tiene: label, cuatrimestres[]
-   Cada cuatrimestre: label, materias[], anual?
+   Cada cuatrimestre: label, materias[], anual
    Cada materia: cod, nombre, corr[], apro[]
 ══════════════════════════════════════════════════════ */
 
